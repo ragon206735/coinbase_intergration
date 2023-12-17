@@ -1,0 +1,17 @@
+.mce-content-body {
+    background-color: #f0f0f0 !important;
+    font-family: Inter,sans-serif;
+    font-size: 0.875rem;
+    font-weight: normal;
+    letter-spacing: -0.04px;
+    line-height: 1.4375em;
+    color: #76808D;
+}
+
+.mce-content-body[data-mce-placeholder]:not(.mce-visualblocks)::before {
+    font-family: Inter,sans-serif;
+    font-size: 0.9rem !important;
+    color: rgba(34,47,62,.7) !important; 
+    font-weight: 300 !important;
+    opacity: 0.2;
+}
